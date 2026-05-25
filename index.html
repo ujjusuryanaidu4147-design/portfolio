@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <meta name="description"
+        content="Accessible personal portfolio website using semantic HTML5 and WCAG guidelines.">
+
+    <meta name="keywords"
+        content="portfolio, web developer, HTML5, CSS3, accessibility, semantic website">
+
+    <meta name="author" content="Your Name">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">
+        Skip to Main Content
+    </a>
+
+    <header>
+
+        <div class="logo">
+            <h1>My Portfolio</h1>
+        </div>
+
+        <nav aria-label="Main Navigation">
+
+            <ul class="nav-links">
+
+                <li><a href="index.html" aria-current="page">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="projects.html">Projects</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main id="main-content">
+
+        <!-- Hero Section -->
+
+        <section class="hero" aria-labelledby="hero-heading">
+
+            <div class="hero-text">
+
+                <h2 id="hero-heading">
+                    Hi, I'm a Frontend Developer
+                </h2>
+
+                <p>
+                    I create semantic, accessible and responsive websites
+                    using modern HTML5 and CSS3 standards.
+                </p>
+
+                <a href="projects.html" class="btn">
+                    View Projects
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img src="profile.jpg"
+                    alt="Profile picture of portfolio owner">
+
+            </div>
+
+        </section>
+
+        <!-- Skills Section -->
+
+        <section class="skills-section"
+            aria-labelledby="skills-heading">
+
+            <h2 id="skills-heading">My Skills</h2>
+
+            <div class="cards">
+
+                <article class="card">
+
+                    <h3>HTML5</h3>
+
+                    <p>
+                        Semantic and SEO-friendly structure.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>CSS3</h3>
+
+                    <p>
+                        Responsive layouts and animations.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>Accessibility</h3>
+
+                    <p>
+                        WCAG compliant accessible websites.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 My Portfolio | Built with HTML5 & CSS3
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
